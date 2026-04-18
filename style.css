@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f0f4f8;
+}
+
+.header {
+    background: linear-gradient(to right, #2d9354, #1e7e44);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.main-container {
+    display: flex;
+    flex: 1;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: white;
+    border-right: 1px solid #ddd;
+    padding: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar li {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+    color: #444;
+}
+
+.sidebar li i {
+    margin-right: 10px;
+    width: 20px;
+}
+
+.menu-title {
+    font-weight: bold;
+    font-size: 1.1em;
+    border-bottom: 2px solid #eee !important;
+}
+
+.content {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+}
+
+.card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    flex: 1; 
+    align-self: flex-start;
+}
+
+.card h2 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.card hr {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin-bottom: 20px;
+}
+
+.card p {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
